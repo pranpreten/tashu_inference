@@ -1,0 +1,24 @@
+{
+  "version": "v1",
+  "trained_at": "2026-07-07",
+  "dataset": "tashu_ml_dataset_v1.csv",
+  "train_period": "2025-01-01 ~ 2025-11-30",
+  "model": "LightGBM (objective=poisson, n_estimators=2000, lr=0.05, early_stopping=50)",
+  "features": [
+    "station_id",
+    "hour",
+    "dow",
+    "is_weekend",
+    "month",
+    "is_holiday",
+    "temp",
+    "humid",
+    "wind",
+    "precip",
+    "pm10",
+    "pm25",
+    "ozone"
+  ],
+  "val_mae_rent": 0.504,
+  "val_mae_return": 0.511
+}
